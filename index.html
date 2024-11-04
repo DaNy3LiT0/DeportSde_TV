@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeporSdE - Canal de Deporte en Santiago del Estero</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img\sdetv.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <div class="logo animate__animated animate__lightSpeedInLeft">
+            <img src="img\logo_rojo.png" alt="Logo DeporSdE">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#programas">Programas</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="contacto.html">Contactanos</a></li>
+            </ul>
+        </nav>
+        <div class="live-broadcast">
+            <a href="#live" class="live-btn">En Vivo</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección Destacada -->
+        <section id="inicio" class="featured">
+            <img src="img\presentador2.png" alt="Presentador" class="presenter">
+            <div class="featured-info">
+                <h1>Basket Total</h1>
+                <p>Únete a nosotros en "Basket Total", donde exploramos las jugadas más emocionantes, los secretos del
+                    juego y las historias detrás de tus jugadores favoritos. ¡No te lo pierdas!</p>
+                <table class="program-time">
+                    <tr>
+                        <td class="day">Lunes</td>
+                        <td class="divider"></td>
+                        <td class="time">10:00 AM</td>
+                    </tr>
+                </table>
+                <a href="#about" class="btn">Ver Programa</a>
+                <audio controls class="audio-player">
+                    <source src="p_29735253_667.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+        </section>
+
+        <!-- Sección de Carrusel -->
+        <section id="carrusel" class="program-schedule">
+            <ol class="program-schedule-inner">
+                <li class="program">
+                    <span class="program-time">09:00</span>
+                    <h3>Goles y Más</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">10:30</span>
+                    <h3>Basket Total</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">12:00</span>
+                    <h3>Velocidad Pura</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">13:30</span>
+                    <h3>Smash Point</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">15:00</span>
+                    <h3>Knockout</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">16:30</span>
+                    <h3>Rugby sin Límites</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">18:00</span>
+                    <h3>Pedaleando</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">19:30</span>
+                    <h3>Natación de Elite</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">21:00</span>
+                    <h3>Noticiero Central DeporSdE</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">22:30</span>
+                    <h3>Atletas de Oro</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+
+                <li class="program">
+                    <span class="program-time">09:00</span>
+                    <h3>Goles y Más</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">10:30</span>
+                    <h3>Basket Total</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">12:00</span>
+                    <h3>Velocidad Pura</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">13:30</span>
+                    <h3>Smash Point</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">15:00</span>
+                    <h3>Knockout</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">16:30</span>
+                    <h3>Rugby sin Límites</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">18:00</span>
+                    <h3>Pedaleando</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">19:30</span>
+                    <h3>Natación de Elite</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">21:00</span>
+                    <h3>Noticiero Central DeporSdE</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+                <li class="program">
+                    <span class="program-time">22:30</span>
+                    <h3>Atletas de Oro</h3>
+                    <span class="program-day">Hoy</span>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Sección de Programas -->
+        <section id="programas" class="tv-programs">
+            <h2>Programas</h2>
+            <div class="program-cards">
+                <div class="program-card">
+                    <img src="img/atletismo.jpg" alt="Atletas de Oro">
+                    <div class="program-info">
+                        <div class="program-details">
+                            <span class="program-time">Lun y Jue 22:30</span>
+                            <h3>Atletas de Oro</h3>
+                            <p>Lo mejor del atletismo santiagueño</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <img src="img\noticiero.jpg" alt="Noticiero Central DeporSdE">
+                    <div class="program-info">
+                        <div class="program-details">
+                            <span class="program-time">Lun a Vie 21:00</span>
+                            <h3>Noticiero Central DeporSdE</h3>
+                            <p>Las últimas noticias del deporte local</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <img src="img/futbol.jpg" alt="Goles y Más">
+                    <div class="program-info">
+                        <div class="program-details">
+                            <span class="program-time">Mar y Sáb 09:00</span>
+                            <h3>Goles y Más</h3>
+                            <p>Resumen de los partidos de la semana</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <img src="img/fitness.jpg" alt="Pedaleando">
+                    <div class="program-info">
+                        <div class="program-details">
+                            <span class="program-time">Mié 18:00 y Dom 10:00</span>
+                            <h3>Pedaleando</h3>
+                            <p>Todo sobre ciclismo y fitness</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <img src="img/autos.jpg" alt="Velocidad Pura">
+                    <div class="program-info">
+                        <div class="program-details">
+                            <span class="program-time">Jue y Dom 12:00</span>
+                            <h3>Velocidad Pura</h3>
+                            <p>Adrenalina sobre ruedas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <img src="img/tenis.jpg" alt="Smash Point">
+                    <div class="program-info">
+                        <div class="program-details">
+                            <span class="program-time">Vie 13:30 y Sáb 16:00</span>
+                            <h3>Smash Point</h3>
+                            <p>Lo mejor del tenis nacional e internacional</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <img src="img\presentador21.jpeg" alt="Basket Total">
+                    <div class="program-info">
+                        <div class="program-details">
+                            <span class="program-time">Lun y Mié 10:30</span>
+                            <h3>Basket Total</h3>
+                            <p>Análisis completo del básquet local</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Noticias -->
+        <section id="noticias" class="noticias">
+            <h2>Noticias Deportivas</h2>
+            <div class="news-container">
+                <!-- Columna izquierda con noticias con imágenes -->
+                <div class="news-main">
+                    <div class="news-grid">
+                        <article class="news-item">
+                            <img src="img/Noticias/futbol.jpg" alt="Fútbol Local">
+                            <div class="news-info">
+                                <span class="news-category">Fútbol</span>
+                                <h3>Sarmiento se corona campeón del torneo local</h3>
+                                <p>El equipo santiagueño logró una victoria histórica en la final.</p>
+                            </div>
+                        </article>
+                        <article class="news-item">
+                            <img src="img\Noticias\bmx.jpg" alt="Ciclismo de Ruta">
+                            <div class="news-info">
+                                <span class="news-category">Ciclismo</span>
+                                <h3>Vuelta a Santiago: etapa decisiva</h3>
+                                <p>Los ciclistas se preparan para la etapa reina de la competencia.</p>
+                            </div>
+                        </article>
+                        <article class="news-item">
+                            <img src="img\Noticias\tenis.jpg" alt="Tenis Internacional">
+                            <div class="news-info">
+                                <span class="news-category">Tenis</span>
+                                <h3>El Abierto de Santiago se acerca</h3>
+                                <p>Los mejores tenistas del mundo se preparan para competir.</p>
+                            </div>
+                        </article>
+                        <article class="news-item">
+                            <img src="img\Noticias\natacion.jpg" alt="Natación Competitiva">
+                            <div class="news-info">
+                                <span class="news-category">Natación</span>
+                                <h3>Campeonato Nacional de Natación</h3>
+                                <p>Los nadadores se destacan en las pruebas de velocidad.</p>
+                            </div>
+                        </article>
+                        <article class="news-item">
+                            <img src="img\Noticias\rugby.jpg" alt="Rugby Local">
+                            <div class="news-info">
+                                <span class="news-category">Rugby</span>
+                                <h3>El equipo de rugby local clasifica a playoffs</h3>
+                                <p>Una temporada exitosa que culmina en la clasificación.</p>
+                            </div>
+                        </article>
+                        <article class="news-item">
+                            <img src="img\Noticias\boxeo.jpg" alt="Boxeo Juvenil">
+                            <div class="news-info">
+                                <span class="news-category">Boxeo</span>
+                                <h3>Campeonato Nacional de Boxeo Juvenil</h3>
+                                <p>Los jóvenes talentos muestran su habilidad en el ring.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Columna derecha con titulares -->
+                <div class="news-sidebar">
+                    <h3>Últimas Noticias</h3>
+                    <ul class="news-headlines">
+                        <li>
+                            <span class="news-category">Básquet</span>
+                            <h4>Quimsa se prepara para enfrentar a Obras en La Banda</h4>
+                            <span class="news-date">20 Nov 2023</span>
+                        </li>
+                        <li>
+                            <span class="news-category">Fútbol</span>
+                            <h4>Central Córdoba busca técnico tras la salida de Rondina</h4>
+                            <span class="news-date">19 Nov 2023</span>
+                        </li>
+                        <li>
+                            <span class="news-category">Rugby</span>
+                            <h4>Old Lions se consagró campeón del Regional del NOA</h4>
+                            <span class="news-date">19 Nov 2023</span>
+                        </li>
+                        <li>
+                            <span class="news-category">Atletismo</span>
+                            <h4>Gran actuación santiagueña en el Nacional U18</h4>
+                            <span class="news-date">18 Nov 2023</span>
+                        </li>
+                        <li>
+                            <span class="news-category">Ciclismo</span>
+                            <h4>La Vuelta Santiagueña confirmó su fecha para 2024</h4>
+                            <span class="news-date">18 Nov 2023</span>
+                        </li>
+                        <li>
+                            <span class="news-category">Básquet</span>
+                            <h4>Nicolás Aguirre regresa a Quimsa para la próxima temporada</h4>
+                            <span class="news-date">17 Nov 2023</span>
+                        </li>
+                        <li>
+                            <span class="news-category">Fútbol</span>
+                            <h4>Güemes suma refuerzos para el Federal A</h4>
+                            <span class="news-date">17 Nov 2023</span>
+                        </li>
+                        <li>
+                            <span class="news-category">Hockey</span>
+                            <h4>Santiago Lawn Tennis dominó el torneo Anual Femenino</h4>
+                            <span class="news-date">16 Nov 2023</span>
+                        </li>
+                        <li>
+                            <span class="news-category">Boxeo</span>
+                            <h4>Exitosa velada boxística en el Club Juventud</h4>
+                            <span class="news-date">16 Nov 2023</span>
+                        </li>
+                        <li>
+                            <span class="news-category">Natación</span>
+                            <h4>El natatorio del Polideportivo Provincial será sede del Regional</h4>
+                            <span class="news-date">15 Nov 2023</span>
+                        </li>
+                        <li>
+                            <span class="news-category">Voley</span>
+                            <h4>Olímpico de La Banda se prepara para la Liga Argentina</h4>
+                            <span class="news-date">15 Nov 2023</span>
+                        </li>
+                        <li>
+                            <span class="news-category">Motociclismo</span>
+                            <h4>El Termas de Río Hondo confirma fecha del MotoGP 2024</h4>
+                            <span class="news-date">14 Nov 2023</span>
+                        </li>
+                        <!-- ... más titulares ... -->
+                    </ul>
+                </div>
+            </div>
+            <a href="#more-news" class="btn">Ver más noticias</a>
+        </section>
+
+        <!-- Sección de Videos -->
+        <section id="videos" class="videos">
+            <h2>Videos</h2>
+            <div class="video-container">
+                <div class="video-row">
+                    <iframe width="695" height="391" src="https://www.youtube.com/embed/KDwHfeRmw7Q"
+                        title="Leandro Ramella, DT de Quimsa, habló tras la derrota ante Peñarol" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="521" height="391" src="https://www.youtube.com/embed/kocR7rKe7Z8"
+                        title="Más de diez mil competidores participaron de la maratón Diario El Liberal"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-row">
+                    <iframe width="695" height="391" src="https://www.youtube.com/embed/fZMDBouDv84"
+                        title="Old Lions, campeón del Súper 10 de rugby del NOA" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="695" height="391" src="https://www.youtube.com/embed/Gcw1WJn9AOs"
+                        title="Sarmiento 1-1 Olimpo de Bahía Blanca /vuelta cuartos de final Reválida del Federal A"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Galería -->
+        <section id="galeria" class="galeria">
+            <h2>Galería</h2>
+            <div class="galeria-grid">
+
+                <div class="galeria-item">
+                    <img src="img\Galerias\quimsa.jpg" alt="Partido de básquet">
+                    <div class="galeria-info">
+                        <h3>Quimsa en acción</h3>
+                        <p>Liga Nacional de Básquet</p>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <img src="img\Galerias\oldlions.jpg" alt="Partido de rugby">
+                    <div class="galeria-info">
+                        <h3>Old Lions Rugby</h3>
+                        <p>Campeón del Regional NOA</p>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <img src="img\Galerias\maraton.jpg" alt="Competencia de atletismo">
+                    <div class="galeria-info">
+                        <h3>Maratón El Liberal</h3>
+                        <p>Edición anual 2023</p>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <img src="img\Galerias\natacion.jpg" alt="Competencia de natación">
+                    <div class="galeria-info">
+                        <h3>Torneo Provincial de Natación</h3>
+                        <p>Polideportivo Provincial</p>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <img src="img\Galerias\iclismo.jpg" alt="Carrera de ciclismo">
+                    <div class="galeria-info">
+                        <h3>Vuelta a Santiago</h3>
+                        <p>Etapa final en la capital</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-info">
+                <p>&copy; 2024 Canal DeportSdeTv. Todos los derechos reservados.</p>
+            </div>
+
+            <div class="footer-social">
+                <a href="https://www.instagram.com/tucanal" target="_blank" aria-label="Síguenos en Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/tucanal" target="_blank" aria-label="Síguenos en Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.twitter.com/tucanal" target="_blank" aria-label="Síguenos en Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
